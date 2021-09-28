@@ -33,7 +33,7 @@ export default function Home({postsPagination}) {
         <div className={styles.posts}>
           <Link href="/">
             <a className={styles.post}>
-              <strong>Título Qualquer</strong>
+              <strong>Título 01</strong>
               <p>Pensando em sincronização em vez de ciclos de vida.</p>
               <ul>
                 <li>
@@ -42,11 +42,28 @@ export default function Home({postsPagination}) {
                 </li>
                 <li>
                   <FiUser />
-                  15 mar 2021
+                  Anni Caroline
                 </li>
               </ul>
             </a>
           </Link>
+          <Link href="/">
+            <a className={styles.post}>
+              <strong>Título 02</strong>
+              <p>Pensando em sincronização em vez de ciclos de vida.</p>
+              <ul>
+                <li>
+                  <FiCalendar />
+                  10 out 2021
+                </li>
+                <li>
+                  <FiUser />
+                  Rodrigo Giraya
+                </li>
+              </ul>
+            </a>
+          </Link>
+          <button type="button">Carregar mais posts</button>
         </div>
       </main>
     </>
